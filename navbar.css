@@ -198,6 +198,15 @@ body {
 
   }
 
+  .centrado.label{
+    text-align: center;
+    font-size: 30px;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 25px;
+    margin: auto;
+  }
+
   .sep {
     display: none;
   }
@@ -214,7 +223,7 @@ body {
 
   #container > div{
 
-    height: auto;
+    
     margin-top: 20px;
     font-size: 45px;
     width: 70%;
