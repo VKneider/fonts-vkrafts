@@ -221,9 +221,13 @@ body {
     font-weight: bold;
   }
 
+  #container{
+    text-align: center;
+  justify-content: center;
+  align-items: center;
+  }
   #container > div{
 
-    
     margin-top: 20px;
     font-size: 45px;
     width: 70%;
