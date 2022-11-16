@@ -202,8 +202,22 @@ body {
     display: none;
   }
 
-  .font {
-    width: 80%;
+  .label:focus{
+    font-size: 28px;
+    font-weight: bolder;
+  }
+
+  .label::placeholder{
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  #container > div{
+
+    height: auto;
+    margin-top: 20px;
+    font-size: 45px;
+    width: 70%;
   }
 
 }
@@ -218,7 +232,8 @@ body {
   font-size: 30px;
   background-color: white;
   border: 5px solid white;
-  border-radius: 15px;
+  border-radius: 25px;
+  margin: auto;
 }
 
 .centrado {
@@ -226,6 +241,16 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.centrado.label{
+  text-align: center;
+  font-size: 30px;
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 25px;
+  margin: auto;
+}
+
 
 .center {
   display: flex;
@@ -251,4 +276,17 @@ body {
   width: 50%;
   border: 5px solid white;
   border-radius: 15px;
+  box-shadow: 5px 5px 5px black;
+}
+
+
+.label:focus{
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.label::placeholder{
+  font-size: 28px;
+  
+  font-weight: bold;
 }
