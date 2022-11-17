@@ -44,21 +44,25 @@ input.addEventListener('input', ()=>{
 })
 
 let fontScript = [
-    'AdorableMommia',  'Andaresta_Demo',
-    'Backline',        'CallingHeart',
-    'CatalishHuntera', 'Fishtail',
-    'Flower',          'HalycoonScript',
-    'Harland Roselyn', 'Hello Valentina',
-    'Muthiara',        'Sarllina',
-    'SintaScript',     'SouthGate',
-    'SummerDaisy',     'TheBoldStyleRegular'
+  'AdorableMommia',  'Andaresta_Demo',
+  'Backline',        'CallingHeart',
+  'CatalishHuntera', 'desktop',
+  'Fishtail',        'Flower',
+  'HalycoonScript',  'Harland Roselyn',
+  'Hello Valentina', 'Hunters',
+  'Lulu Lala',       'makinglovem',
+  'Muthiara',        'Princeska',
+  'Sarllina',        'SintaScript',
+  'Sometime',        'SouthGate',
+  'Sugar Dream',     'SummerDaisy',
+  'The Athalitta',   'TheBoldStyleRegular'
 ]
 
 
 let fontImprenta = [
   'Academic M54',
   'Acids',
-  'Averus (DEMO)',
+  'Averus',
   'Avigea',
   'Avocado Cake Demo',
   'BAUHS93',

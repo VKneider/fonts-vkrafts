@@ -4,6 +4,10 @@
   font-family: sans-serif;
 }
 
+.averus {
+  font-family: Averus;
+}
+
 body {
   background-color: #55a0da;
 }
@@ -46,7 +50,6 @@ body {
 
 .logo {
   font-size: 30px;
-  font-weight: bold;
   padding: 0 40px;
   line-height: 80px;
 }
