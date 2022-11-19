@@ -292,9 +292,17 @@ body {
   width: 50%;
   border: 5px solid white;
   border-radius: 15px;
-  box-shadow: 5px 5px 5px black;
+  
+  
+  
 }
 
+.font:hover{
+  background-color: var(--blue);
+  color: white;
+  border: 5px solid black;
+  cursor:pointer;
+}
 
 .label:focus{
   font-size: 28px;

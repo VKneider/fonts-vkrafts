@@ -14,7 +14,7 @@
 <body>
     <header class="header">
         <nav class="nav">
-            <a href="#" class="averus logo">VKrafts</a>
+            <a href="#" id="logo" class="averus logo">VKrafts</a>
             <button class="toggle pos">
                 <span></span>
                 <span></span>
@@ -22,7 +22,7 @@
             </button>
             <ul class="nav-menu">
                 <li class="nav-menu-item "> <a href="#" id="script" class="averus nav-menu-link"> Caligrafia </a></li>
-                <li class="nav-menu-item"> <a href="#"  id="imprenta" class="averus nav-menu-link"> Imprenta </a> </li>
+                <li class="nav-menu-item"> <a href="#" id="imprenta" class="averus nav-menu-link"> Imprenta </a> </li>
                 <li class="nav-menu-item"> <a href="#" class="averus nav-menu-link"> Contactanos </a> </li>
             </ul>
 
@@ -30,11 +30,49 @@
         </nav>
 
     </header>
-    <div class="sep"></div></div>
-    <div class="centrado"><input class="centrado label" type="text" id="text" placeholder="Ingresa el texto a visualizar">
-    </div> 
+    <div class="sep"></div>
+    </div>
+    <div class="centrado"><input class="centrado label" type="text" id="text"
+            placeholder="Ingresa el texto a visualizar">
+    </div>
     <div id="container" class="center"></div>
     <script src="main.js"></script>
+    <script src="html2canvas.js"></script>
+
+    <script>
+        var elements = document.getElementsByClassName('font')
+
+        for (let i = 0; i < elements.length; i++) {
+            elements[i].addEventListener('click', (e) => { e.preventDefault(); createImage(e) })
+        }
+
+        async function copyToClipBoard(e) {
+            e.preventDefault();
+            let call = await html2canvas(e.srcElement);
+            await call.toBlob(blob => navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]))
+            alert('hi')
+            return true;
+        }
+
+   
+
+        async function createImage(e) {
+
+            let call = await html2canvas(e.srcElement);
+            screenshot = call.toDataURL("image/png");
+            var link = document.createElement("a")
+            link.download = "fuente-vkrafts";
+            link.href = screenshot;
+            link.id="hola"
+            document.body.appendChild(link)
+            link.click();
+            document.body.removeChild(link);
+            alert("Imagen Descargada")
+        }
+
+
+    </script>
+
 </body>
 
 </html>

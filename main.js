@@ -1,5 +1,6 @@
 let container = document.getElementById('container')
 let flag= true;
+
 const t = document.querySelector(".toggle");
 t.addEventListener("click", () => {
   t.classList.toggle("is-active");
@@ -123,6 +124,7 @@ function generateImprentaDivs(){
 
       son.classList.add("centrado")
       son.classList.add("font")
+      son.id="hi"
       son.innerHTML=`${i} - ${inputName}`;    
       son.style.fontFamily=fontImprenta[i];    
       container.appendChild(son)
@@ -130,20 +132,7 @@ function generateImprentaDivs(){
 
 }
 
-
 generateScriptDivs();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+//EVENTOS NUEVOS
 
