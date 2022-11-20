@@ -8,12 +8,14 @@ t.addEventListener("click", () => {
 
 let caligrafia = document.getElementById("script")
 caligrafia.addEventListener('click', ()=>{
+  
   flag=true;
   generateScriptDivs()
 })
 
 let imprenta = document.getElementById("imprenta")
 imprenta.addEventListener('click',(e) =>{
+  
   flag=false;
   generateImprentaDivs();
   
@@ -94,7 +96,39 @@ let fontImprenta = [
   'Sunrise International Demo'
 ]
 
+function addEvents(){
+  var elements = document.getElementsByClassName('font')
 
+  for (let i = 0; i < elements.length; i++) {
+      elements[i].addEventListener('click', (e) => { e.preventDefault(); createImage(e) })
+  }
+
+}
+
+
+async function copyToClipBoard(e) {
+  e.preventDefault();
+  let call = await html2canvas(e.srcElement);
+  await call.toBlob(blob => navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]))
+  alert('hi')
+  return true;
+}
+
+
+
+async function createImage(e) {
+
+  let call = await html2canvas(e.srcElement);
+  screenshot = call.toDataURL("image/png");
+  var link = document.createElement("a")
+  link.download = "fuente-vkrafts";
+  link.href = screenshot;
+  link.id="hola"
+  document.body.appendChild(link)
+  link.click();
+  document.body.removeChild(link);
+  alert("Imagen Descargada")
+}
 
 function generateScriptDivs(){
     container.innerHTML="";
@@ -110,7 +144,7 @@ function generateScriptDivs(){
         son.style.fontFamily=fontScript[i];    
         container.appendChild(son)
     }
-
+    addEvents()
 }
 
 function generateImprentaDivs(){
@@ -129,7 +163,7 @@ function generateImprentaDivs(){
       son.style.fontFamily=fontImprenta[i];    
       container.appendChild(son)
   }
-
+  addEvents()
 }
 
 generateScriptDivs();
