@@ -8,6 +8,12 @@
   font-family: Averus;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
 body {
   background-color: #55a0da;
 }
@@ -131,8 +137,6 @@ body {
 
 @media (max-width: 768px) {
 
-  
-
   body {
     padding-top: 70px;
   }
@@ -201,13 +205,14 @@ body {
 
   }
 
+
   .centrado.label{
     text-align: center;
     font-size: 30px;
     background-color: white;
     border: 5px solid white;
     border-radius: 25px;
-    margin: auto;
+    
   }
 
   .sep {
@@ -229,6 +234,7 @@ body {
   justify-content: center;
   align-items: center;
   }
+
   #container > div{
 
     margin-top: 20px;
@@ -306,3 +312,4 @@ body {
   
   font-weight: bold;
 }
+
