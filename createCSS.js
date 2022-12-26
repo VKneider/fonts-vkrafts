@@ -15,7 +15,7 @@ function createScript(){
         
         font=font.trim(' ')
         let idx= font.indexOf(".")
-        let url =font.slice(0,idx)
+        let url =font.slice(0,idx).replaceAll(" ", "_")
         result+=(`@font-face {
             src: url('./fonts/script/${font}');
             font-family: ${url};}\n`)
@@ -27,7 +27,7 @@ function createScript(){
     
     let fileNames = fonts.map(font =>{
         let idx= font.indexOf(".")
-        let url =font.slice(0,idx)
+        let url =font.slice(0,idx).replaceAll(" ", "_")
         return url
     })
 
@@ -51,7 +51,7 @@ function createImprenta(){
         
         font=font.trim(' ')
         let idx= font.indexOf(".")
-        let url =font.slice(0,idx)
+        let url =font.slice(0,idx).replaceAll(" ", "_")
         result+=(`@font-face {
             src: url('./fonts/imprenta/${font}');
             font-family: ${url};}\n`)
@@ -63,7 +63,9 @@ function createImprenta(){
         
         let fileNames = fonts.map(font =>{
             let idx= font.indexOf(".")
-            let url =font.slice(0,idx)
+
+            let url =font.slice(0,idx).replaceAll(" ", "_")
+            
             return url
         })
         

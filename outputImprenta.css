@@ -1,6 +1,6 @@
 @font-face {
             src: url('./fonts/imprenta/Academic M54.ttf');
-            font-family: Academic M54;}
+            font-family: Academic_M54;}
 @font-face {
             src: url('./fonts/imprenta/Acids.otf');
             font-family: Acids;}
@@ -12,61 +12,121 @@
             font-family: Avigea;}
 @font-face {
             src: url('./fonts/imprenta/Avocado Cake Demo.otf');
-            font-family: Avocado Cake Demo;}
+            font-family: Avocado_Cake_Demo;}
 @font-face {
             src: url('./fonts/imprenta/BAUHS93.ttf');
             font-family: BAUHS93;}
 @font-face {
             src: url('./fonts/imprenta/Better Together Caps.ttf');
-            font-family: Better Together Caps;}
+            font-family: Better_Together_Caps;}
 @font-face {
             src: url('./fonts/imprenta/Blakecats.otf');
             font-family: Blakecats;}
 @font-face {
             src: url('./fonts/imprenta/Bloomer DEMO.otf');
-            font-family: Bloomer DEMO;}
+            font-family: Bloomer_DEMO;}
 @font-face {
             src: url('./fonts/imprenta/Bubblegum.ttf');
             font-family: Bubblegum;}
 @font-face {
             src: url('./fonts/imprenta/Candy Beans.otf');
-            font-family: Candy Beans;}
+            font-family: Candy_Beans;}
 @font-face {
             src: url('./fonts/imprenta/CFJackStory-Regular.ttf');
             font-family: CFJackStory-Regular;}
 @font-face {
+            src: url('./fonts/imprenta/Christmas Memories Font by Kelik 7NTypes.otf');
+            font-family: Christmas_Memories_Font_by_Kelik_7NTypes;}
+@font-face {
+            src: url('./fonts/imprenta/Chunkey.otf');
+            font-family: Chunkey;}
+@font-face {
+            src: url('./fonts/imprenta/Cool Baby Flat.otf');
+            font-family: Cool_Baby_Flat;}
+@font-face {
+            src: url('./fonts/imprenta/Curly Sweety.otf');
+            font-family: Curly_Sweety;}
+@font-face {
+            src: url('./fonts/imprenta/Cute and Cake.otf');
+            font-family: Cute_and_Cake;}
+@font-face {
+            src: url('./fonts/imprenta/Dainty Catsy.otf');
+            font-family: Dainty_Catsy;}
+@font-face {
+            src: url('./fonts/imprenta/Dakwart Letter.otf');
+            font-family: Dakwart_Letter;}
+@font-face {
             src: url('./fonts/imprenta/Dashing Unicorn.ttf');
-            font-family: Dashing Unicorn;}
+            font-family: Dashing_Unicorn;}
+@font-face {
+            src: url('./fonts/imprenta/Deliciously Sans.otf');
+            font-family: Deliciously_Sans;}
+@font-face {
+            src: url('./fonts/imprenta/Droop Sheep.otf');
+            font-family: Droop_Sheep;}
+@font-face {
+            src: url('./fonts/imprenta/FARMHOUSE BOLD.otf');
+            font-family: FARMHOUSE_BOLD;}
 @font-face {
             src: url('./fonts/imprenta/Florida.otf');
             font-family: Florida;}
 @font-face {
             src: url('./fonts/imprenta/FRESH FOOD.otf');
-            font-family: FRESH FOOD;}
+            font-family: FRESH_FOOD;}
+@font-face {
+            src: url('./fonts/imprenta/Garden Signboard.otf');
+            font-family: Garden_Signboard;}
+@font-face {
+            src: url('./fonts/imprenta/Garden Signboard.ttf');
+            font-family: Garden_Signboard;}
+@font-face {
+            src: url('./fonts/imprenta/Githo.otf');
+            font-family: Githo;}
 @font-face {
             src: url('./fonts/imprenta/GROBOLD.ttf');
             font-family: GROBOLD;}
 @font-face {
+            src: url('./fonts/imprenta/Hamster Sweet.otf');
+            font-family: Hamster_Sweet;}
+@font-face {
             src: url('./fonts/imprenta/HEAVYHEA.TTF');
             font-family: HEAVYHEA;}
 @font-face {
-            src: url('./fonts/imprenta/Hello Sunshine.otf');
-            font-family: Hello Sunshine;}
+            src: url('./fonts/imprenta/Hello Rainbow OTF.otf');
+            font-family: Hello_Rainbow_OTF;}
 @font-face {
-            src: url('./fonts/imprenta/ICE CREAM SODAWATER 02.ttf');
-            font-family: ICE CREAM SODAWATER 02;}
+            src: url('./fonts/imprenta/Hello Sunshine.otf');
+            font-family: Hello_Sunshine;}
 @font-face {
             src: url('./fonts/imprenta/ICE CREAM SODAWATER 03.ttf');
-            font-family: ICE CREAM SODAWATER 03;}
+            font-family: ICE_CREAM_SODAWATER_03;}
+@font-face {
+            src: url('./fonts/imprenta/ICECREAMSODAWATER02.ttf');
+            font-family: ICECREAMSODAWATER02;}
 @font-face {
             src: url('./fonts/imprenta/Kid Marker.ttf');
-            font-family: Kid Marker;}
+            font-family: Kid_Marker;}
+@font-face {
+            src: url('./fonts/imprenta/Kongo.otf');
+            font-family: Kongo;}
+@font-face {
+            src: url('./fonts/imprenta/La Foonte Sans.ttf');
+            font-family: La_Foonte_Sans;}
+@font-face {
+            src: url('./fonts/imprenta/Magenta Black.otf');
+            font-family: Magenta_Black;}
+@font-face {
+            src: url('./fonts/imprenta/Magic Winter Sans.otf');
+            font-family: Magic_Winter_Sans;}
 @font-face {
             src: url('./fonts/imprenta/Magical Snow.ttf');
-            font-family: Magical Snow;}
+            font-family: Magical_Snow;}
 @font-face {
             src: url('./fonts/imprenta/Make Me Happy.otf');
-            font-family: Make Me Happy;}
+            font-family: Make_Me_Happy;}
+@font-face {
+            src: url('./fonts/imprenta/mickey.ttf');
+            font-family: mickey;}
 @font-face {
             src: url('./fonts/imprenta/Minecrafter1.ttf');
             font-family: Minecrafter1;}
@@ -74,14 +134,23 @@
             src: url('./fonts/imprenta/Minecrafter2.ttf');
             font-family: Minecrafter2;}
 @font-face {
+            src: url('./fonts/imprenta/oreos.ttf');
+            font-family: oreos;}
+@font-face {
             src: url('./fonts/imprenta/PumpkinCheesecake.otf');
             font-family: PumpkinCheesecake;}
+@font-face {
+            src: url('./fonts/imprenta/Savaneta.otf');
+            font-family: Savaneta;}
 @font-face {
             src: url('./fonts/imprenta/Signboard.ttf');
             font-family: Signboard;}
 @font-face {
             src: url('./fonts/imprenta/Squirk.otf');
             font-family: Squirk;}
+@font-face {
+            src: url('./fonts/imprenta/Storelights.ttf');
+            font-family: Storelights;}
 @font-face {
             src: url('./fonts/imprenta/SUBSCRIBER-Regular.otf');
             font-family: SUBSCRIBER-Regular;}
@@ -90,4 +159,4 @@
             font-family: SugarpunchDEMO;}
 @font-face {
             src: url('./fonts/imprenta/Sunrise International Demo.otf');
-            font-family: Sunrise International Demo;}
+            font-family: Sunrise_International_Demo;}

@@ -14,29 +14,50 @@
             src: url('./fonts/script/CatalishHuntera.otf');
             font-family: CatalishHuntera;}
 @font-face {
+            src: url('./fonts/script/Dean.otf');
+            font-family: Dean;}
+@font-face {
             src: url('./fonts/script/desktop.ini');
             font-family: desktop;}
 @font-face {
             src: url('./fonts/script/Fishtail.ttf.ttf');
             font-family: Fishtail;}
 @font-face {
+            src: url('./fonts/script/Floristya.otf');
+            font-family: Floristya;}
+@font-face {
             src: url('./fonts/script/Flower.ttf');
             font-family: Flower;}
+@font-face {
+            src: url('./fonts/script/Gragina.otf');
+            font-family: Gragina;}
 @font-face {
             src: url('./fonts/script/HalycoonScript.ttf');
             font-family: HalycoonScript;}
 @font-face {
+            src: url('./fonts/script/Handy Script.ttf');
+            font-family: Handy_Script;}
+@font-face {
             src: url('./fonts/script/Harland Roselyn.ttf');
-            font-family: Harland Roselyn;}
+            font-family: Harland_Roselyn;}
 @font-face {
             src: url('./fonts/script/Hello Valentina.ttf');
-            font-family: Hello Valentina;}
+            font-family: Hello_Valentina;}
 @font-face {
             src: url('./fonts/script/Hunters.otf');
             font-family: Hunters;}
 @font-face {
+            src: url('./fonts/script/Jacky betty.ttf');
+            font-family: Jacky_betty;}
+@font-face {
+            src: url('./fonts/script/Love mom.otf');
+            font-family: Love_mom;}
+@font-face {
             src: url('./fonts/script/Lulu Lala.ttf');
-            font-family: Lulu Lala;}
+            font-family: Lulu_Lala;}
+@font-face {
+            src: url('./fonts/script/Magic Winter Script.ttf');
+            font-family: Magic_Winter_Script;}
 @font-face {
             src: url('./fonts/script/makinglovem.ttf');
             font-family: makinglovem;}
@@ -50,6 +71,9 @@
             src: url('./fonts/script/Sarllina.ttf');
             font-family: Sarllina;}
 @font-face {
+            src: url('./fonts/script/Shanela-Regular.ttf');
+            font-family: Shanela-Regular;}
+@font-face {
             src: url('./fonts/script/SintaScript.otf');
             font-family: SintaScript;}
 @font-face {
@@ -60,13 +84,13 @@
             font-family: SouthGate;}
 @font-face {
             src: url('./fonts/script/Sugar Dream.ttf');
-            font-family: Sugar Dream;}
+            font-family: Sugar_Dream;}
 @font-face {
             src: url('./fonts/script/SummerDaisy.ttf');
             font-family: SummerDaisy;}
 @font-face {
             src: url('./fonts/script/The Athalitta.ttf');
-            font-family: The Athalitta;}
+            font-family: The_Athalitta;}
 @font-face {
             src: url('./fonts/script/TheBoldStyleRegular.ttf');
             font-family: TheBoldStyleRegular;}
